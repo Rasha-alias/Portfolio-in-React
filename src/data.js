@@ -19,6 +19,7 @@ export const data = [
     id:4,
     image : 'https://media3.s-nbcnews.com/i/MSNBC/Components/Video/201804/tdy_money_kent_facebook_180409_1920x1080.jpg',
      title : 'Facebook',
-     link:' https://www.facebook.com/rasha.malki.3',
+     link:' https://www.facebook.com/rasha.malki.3', 
+  }
 
   ];
