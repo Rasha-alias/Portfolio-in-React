@@ -1,32 +1,481 @@
-.App {
+
+@import url("https://fonts.googleapis.com/css2?family=Domine&family=Indie+Flower&family=Mochiy+Pop+P+One&family=Quintessential&family=Satisfy&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Indie+Flower&family=Mochiy+Pop+P+One&display=swap");
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Domine&family=Indie+Flower&family=Itim&family=Kalam:wght@700&family=Mochiy+Pop+P+One&family=Patrick+Hand&family=Quintessential&family=Satisfy&family=Supermercado+One&display=swap');
+
+/*************Style homePage***********/
+
+/*****************navbar***************/
+.navbar-border{
+  border-bottom: 4px solid black;
+}
+
+.brand{
+  font-size:25px;
+  font-weight: bold;
+ 
+}
+.nav-link{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.dropin-item{
+  text-decoration:none;
+  color:black;
+}
+
+.homestyle{
+  margin-top: 30px;
+}
+
+.rasha-name{
+  font-size:40px ;
+}
+
+.textstyle{
+  margin-top: 50px;
+  font-size: 33px;
+  font-stretch:wider;
+  font-weight: bold;
+  text-align: center;
+  /*font-family: Lucida Handwriting, Cursive;*/
+  font-family: 'Satisfy', cursive;
+}
+
+
+/*******githubpage*********/
+
+.github-icon{
+  height:150;
+  width:150px;
+}
+.githublink{
+  border:5px solid black;
+  padding:5px;
+  text-decoration: none;
+  color:rgb(28, 105, 32);
+  font-family: 'Bree Serif', serif;
+  font-family: 'Courgette', cursive;
+  font-family: 'Domine', serif;
+  
+}
+
+.reposOutput{
+  text-align: center;
+  margin-top: 30px;
+}
+
+.repospace{
+  margin-top: 40px;
+ 
+}
+ 
+.linkedin-icon{
+  height:150;
+  width:150px;
+}
+
+.space{
+  margin-top: 35px;;
+}
+
+.inputfield{
+  width: 140px;
+  border:3px solid;
+  border-color: black;
+  border-width: 2px solid;
+  color:rgb(28, 105, 32);
+  font-weight: bold;
+  font-size: 25px;;
+  text-align: center;
+  background-color: rgb(243, 218, 195);
+}
+
+.rasha-repos{
+  padding-bottom: 20px;
+  padding-top:10px;
+  margin-top: 20px;;
+}
+
+
+/*****************skillspage******************/
+.i{
+  display: flex;
+  height: 100vh;
+}
+
+.left{
+ flex:1;
+display: flex;
+ align-items: flex-start;
+ justify-content: center;
+
+}
+
+.left-wrapper{
+padding: 50px;
+height:80%;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.intro{
+  font-size: 30px;
+  font-weight: 300px;
+  margin-bottom: 5px;
+}
+
+.name{
+font-size: 60px;
+margin-bottom: 50px;
+}
+
+.left-title{
+  height:50px;
+  overflow: hidden;
+}
+
+.title-item{
+  height:50px;
+  font-size: 40px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  color:rgb(0, 178, 209);
+}
+
+.title-wrapper{
+  height:100%;
+  animation: move 15s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+  12.5% { transform: translateY(-50px); }
+  25% { transform: translateY(-100px); }
+  37.5% { transform: translateY(-150px); }
+  50% { transform: translateY(-200px); }
+  62.5% { transform: translateY(-250px); }
+  75% { transform: translateY(-300px); }
+  87.5% { transform: translateY(-350px); }
+  100% { transform: translateY(-400px); }
+}
+
+.intro-skills{
+  color:gray;
+  font-size: 50px;
+  margin-bottom: 20px;;
+}
+
+.description{
+  margin-top:35px;
+  margin-bottom: 20px;
+  font-size:23px;
+  color:rgb(78, 77, 77);
+}
+
+.interest{
+  font-size:23px;
+  color:rgb(78, 77, 77);
+}
+
+
+.right{
+ flex:1;
+ display:flex;
+ justify-content: center;
+ align-items: center;
+ position:relative;
+}
+
+.bg{
+  clip-path: polygon(33% 0, 100% 0%, 100% 100%, 29% 100%, 0% 50%);
+  background-color:grey;
+  height: 100%;
+  width:100%;
+  position: absolute;
+  top:0;
+  right:0;
+}
+
+.skills-image{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  height:600px;
+  width:600px;
+  position: absolute;
+  margin-left: 100px;;
+
+
+}
+
+
+
+/**************email**************************/
+
+.contact-text{
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.email-form{
+  margin-top: 45px;
+}
+
+.textarea {
+  height:140px;
+  width: 500px;
+  border-color:3px solid black;
+  margin-bottom: 30px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  resize: none; 
+}
+
+.input{
+  border-color:black;
+  width: 300px;
+  height:40px;
+}
+
+.center-input{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+ .lable{
+  margin-left:10px;
+  margin-top:10px;
+ font-weight: bold;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.textarea-lable{
+  margin-left:10px;
+  margin-top:25px;
+ font-weight: bold;
+ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.send{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+.submit{
+ color:rgb(248, 247, 247);
+ background-color: black;
+ border-color:white;
+ width:190px;
+ height:"8px";
+margin-left:200px;
+}
+.submit:hover{
+  color: #7a7878;
+}
+
+/*******************cv**************************/
+.employ {
+  margin-top: 50px;
+  text-shadow: 0px 0px 20px rgb(177, 111, 57);
+  text-shadow: 0px 0px 20px rgb(95, 92, 90);
+}
+
+.content {
+  margin: 20px 0 0 25px;
+  position: relative; 
+  height: 5px;
+  width: 30%;
+  background: #7a7878;
+}
+
+.employment-text{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 30px;  
+}
+
+
+/*************contact page**************/
+
+.box-1{
+  height:700px;
+  width: 50%;
+  margin-top: 50px;
+ 
+  background-color: rgb(43, 41, 39);
+  border-radius: 20px;
+}
+
+.box-2{
+  height:700px;
+  width: 50%;
+  margin-top: 50px;
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+
+.text-box-1{
+  text-align: center;
+  color: #ffffff;
+  font-family:cursive;
+  margin-top: 50px;;
+}
+
+.phone-icon{
+ color:#ffffff;
+ font-size: 35px;
+ text-align: center;
+ margin-top: 20px;
+}
+
+.info{
+  color:#ffffff;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+
+/***************portfolio********************/
+
+.port-container{
+  width:90%;
+  display:flex;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+  
+.item{
+    width:300px;
+    height:200px;
+    border-radius:20px;
+    border: 3px solid rgb(97, 62, 5);
+    display:flex;
+    margin:50px;
+    justify-content:center;
+    align-items: center;
+    color:rgb(97, 62, 5);
+    position: relative;
+    cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+.item:hover{
+  background-color: bisque;
 }
+
+.port-img{
+  object-fit: cover;
+  border-radius:20px;
+  width:100%;
+  height:100%;
+  z-index:1;
+}
+
+.port-img:hover{
+opacity: 0.2;
+z-index: 0;
+}
+
+.item-text{
+  position: absolute;
+  font-size:30px ;
+  font-family: 'Courgette', cursive;
+font-family: 'Domine', serif;
+font-family: 'Indie Flower', cursive;
+font-family: 'Itim', cursive;
+font-family: 'Kalam', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Quintessential', cursive;
+font-family: 'Satisfy', cursive;
+font-family: 'Supermercado One', cursive;
+}
+
+
+
+/***************aboutpage*******************/
+
+.aboutPage-title{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  display:flex;
+  justify-content: center;
+}
+
+.vedio{
+display:flex;
+justify-content: center;
+}
+
+.vedio-title{
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.icon{
+  font-weight: bold;
+  align-items: center;
+  font-size: 20px;
+}
+.like-icon{
+  height:30px;
+  width:30px;
+ margin-left: 90px;
+}
+
+/********************Certificate*****************/
+
+.certi{
+  height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+}
+.powerpoint{
+  margin-top: 200px;;
+  justify-content: center;
+}
+
+/*************************Errorpage******************/
+.error{
+  margin-top: 100px;
+  text-align:center;
+  color:rgb(206, 35, 35);
+}
+
+.go-to-homepage{
+  margin-top: 100px;
+  text-align:center;
+  font-size: 40px;
+}
+
+.error-button{
+  margin-top: 30px;
+  margin-left: 750px;
+  background-color: rgb(37, 107, 37);
+  font-size:30px ;
+  border-color: black;
+}
+
+.wrong-image{
+height: 70px;
+width:70px;
+display:block;
+margin: auto;
+margin-top: 50px;
+}
+
+
+
+
+
 
 @keyframes App-logo-spin {
   from {
